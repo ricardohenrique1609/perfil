@@ -180,9 +180,9 @@ ul li {
   gap: 50px; /* Ajuste a largura conforme necessário */
 }
 
-@media screen and (max-width: 768px) { /* Ajuste o breakpoint conforme necessário */
+@media (max-width: 600px) { 
   .projects {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reduza a largura do cartão em telas menores */
+    grid-template-columns: 1fr; /* Uma coluna por linha */
   }
 }
 
