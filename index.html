@@ -13,7 +13,6 @@
       color: #333;
     }
 
-    
     .container {
       width: 90%;
       max-width: 1200px;
@@ -181,11 +180,6 @@ ul li {
   gap: 50px; /* Ajuste a largura conforme necessário */
 }
 
-@media (max-width: 600px) { 
-  .projects {
-    grid-template-columns: 1fr; /* Uma coluna por linha */
-  }
-}
 
 /* Seção de Contato */
 .containercontato {
@@ -194,6 +188,11 @@ ul li {
 #contato img {
   height: 50px; /* Ajuste a altura conforme necessário */
   width: 50px; /* Ajuste a largura conforme necessário */
+}
+@media (max-width: 600px) { 
+  .projects {
+    grid-template-columns: 1fr; /* Uma coluna por linha */
+  }
 }
 
   </style>
@@ -211,54 +210,71 @@ ul li {
           </p>
         </div>
       </section>
-
-
       
-    
- <section id="sobre-mim">
-        <div class="containersb">
-            <h2>Sobre Mim</h2>
-            <p>Sou movido por dados, inteligência e propósito. Atualmente atuo como estagiário de automação na <strong>Saint-Gobain</strong>, onde desenvolvo soluções com <strong>Python</strong>, <strong>Automation Anywhere</strong> e <strong>Power BI</strong>. Automatizo processos críticos e desenvolvo dashboards que ajudam a equipe a ser mais eficiente e tomar decisões baseadas em dados reais.</p>
-             <p>Estudo <strong>Data Science na FIAP</strong>, onde mergulho em áreas como <strong>Machine Learning</strong>, <strong>IA Generativa</strong>, <strong>Big Data</strong> e <strong>SQL</strong>. Me especializo em transformar dados complexos em soluções visuais, automatizadas e escaláveis. Meu foco é criar impacto real por meio da inteligência analítica.</p>
-            <p>Minha missão é clara: resolver problemas de forma inteligente, gerar eficiência com automação e entregar valor através dos dados. Estou construindo um império com tecnologia, dedicação e visão de longo prazo.</p> 
-            
-            <p>Habilidades principais:</p>
-            <div class="tech-icons">
-                <div class="tech-category">
-                    <h3>Programação:</h3>
-                    <div class="icons">
-                        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" class="tech-icon">
-                        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" class="tech-icon">
-                        <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" class="tech-icon">
-                        <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" class="tech-icon">
-                    </div>
-                </div>
-                <br>
-    
-                <div class="tech-category">
-                    <h3>Web:</h3>
-                    <div class="icons">
-                        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" class="tech-icon">
-                        <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" class="tech-icon">
-                        <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" class="tech-icon">
-                    </div>
-                </div>
-                <br>
-    
-                <div class="tech-category">
-                    <h3>Dados:</h3>
-                    <div class="icons">
-                        <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" class="tech-icon">
-                        <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" class="tech-icon">
-                        <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib" class="tech-icon">
-                        <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" class="tech-icon">
-                        <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" class="tech-icon">
-                        <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" class="tech-icon">
-                        <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" class="tech-icon">
-                        <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="R" class="tech-icon">
-                    </div>
-                </div>
-            </div>
+      
+
+  <!--SOBRE MIM-->
+
+<section id="sobre-mim" style="position: relative; padding: 100px 20px; z-index: 1;">
+  <div style="
+    background: url('Fundo2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.35;
+    z-index: 0;
+  "></div>
+ 
+  <div style="position: absolute; bottom: -80px; right: -60px; width: 240px; height: 240px; background: linear-gradient(135deg, #93c5fd, #2563eb); border-radius: 50%; opacity: 0.1; animation: float2 10s ease-in-out infinite alternate-reverse;"></div>
+
+  <div style="position: relative; z-index: 2; max-width: 1000px; margin: 0 auto; background: white; border-radius: 18px; padding: 60px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); transform: perspective(1000px); animation: fade-in 1.2s ease-out forwards;">
+    <h2 style="text-align: center; font-size: 2.2rem; color: #1e40af; margin-bottom: 30px; text-shadow: 1px 1px 0 #e0e7ff;">Quem Sou Eu?</h2>
+
+    <p style="font-size: 1.15rem; color: #475569; line-height: 1.9; margin-bottom: 25px;">
+      Sou movido por dados, inteligência e propósito. Atualmente atuo como estagiário de automação na <strong>Saint-Gobain</strong>, onde desenvolvo soluções com <strong>Python</strong>, <strong>Automation Anywhere</strong> e <strong>Power BI</strong>. Automatizo processos críticos e desenvolvo dashboards que ajudam a equipe a ser mais eficiente e tomar decisões baseadas em dados reais.
+    </p>
+
+    <p style="font-size: 1.15rem; color: #475569; line-height: 1.9; margin-bottom: 25px;">
+      Estudo <strong>Data Science na FIAP</strong>, onde mergulho em áreas como <strong>Machine Learning</strong>, <strong>IA Generativa</strong>, <strong>Big Data</strong> e <strong>SQL</strong>. Me especializo em transformar dados complexos em soluções visuais, automatizadas e escaláveis. Meu foco é criar impacto real por meio da inteligência analítica.
+    </p>
+
+    <p style="font-size: 1.15rem; color: #475569; line-height: 1.9;">
+      Minha missão é clara: resolver problemas de forma inteligente, gerar eficiência com automação e entregar valor através dos dados. Estou construindo um império com tecnologia, dedicação e visão de longo prazo.
+    </p>
+
+    <div style="margin-top: 45px; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+      <span style="background: #2563eb; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(37,99,235,0.3); transform: scale(1); transition: 0.3s ease;">Python</span>
+      <span style="background: #0ea5e9; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(14,165,233,0.3);">Power BI</span>
+      <span style="background: #9333ea; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(147,51,234,0.3);">Automation Anywhere</span>
+      <span style="background: #10b981; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(16,185,129,0.3);">Machine Learning</span>
+      <span style="background: #f59e0b; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(245,158,11,0.3);">IA Generativa</span>
+      <span style="background: #6b7280; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(107,114,128,0.3);">SQL</span>
+      <span style="background: #3b82f6; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(59,130,246,0.3);">Data Science</span>
+    </div>
+  </div>
+
+  <style>
+    @keyframes float1 {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(30px) rotate(360deg); }
+    }
+
+    @keyframes float2 {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(-30px) rotate(-360deg); }
+    }
+
+    @keyframes fade-in {
+      0% { opacity: 0; transform: translateY(30px) scale(0.98); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+  </style>
+</section>
+  </div>
+</section>
+
+                       
 
             <p>Soft Skills:</p>
        <uk>
@@ -347,20 +363,44 @@ ul li {
         </div>
       </div>
 
-      <!-- Card Projeto 3 -->
+      <!-- Projeto 2 -->
       <div class="project-card">
-        <div class="project-image" style="background-image: url('fraude.png');"></div>
+        <img src="uber.jpg" alt="Projeto 3">
         <div class="project-content">
-          <h3>Sistema de Detecção de Fraudes em Reembolsos</h3>
-          <p>Projeto de detecção de fraudes corporativas usando regras de negócio, estatísticas e Machine Learning. 
-            Inclui geração de dados, análise exploratória, classificação de risco e predição automática com Random Forest.</p>
+          <h2 class="project-title">UberFiciente</h2>
+          <p class="project-description">
+            Plataforma de transporte acessível com funcionalidades de Login, Cadastro, Corridas, reservas, um chatbot integrado e criptografia de senhas.
+          </p>
           <div class="tags">
-            <span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Power BI</span><span>Machine Learning</span>
+            <span class="tag">API do Google Maps</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Node.Js</span>
+            <span class="tag">Bcrypt</span>
+            <span class="tag">Python</span>
           </div>
-          <a href="https://github.com/ricardohenrique1609/Detecção-Fraude" target="_blank">Ver no GitHub</a>
+          <div class="project-links">
+            <a href="https://github.com/ricardohenrique1609/Uberficiente">GitHub</a>
+          </div>
         </div>
       </div>
-            
+
+      <!-- Projeto 3 -->
+      
+      <div class="project-card">
+        <img src="estoque.jpg" alt="Projeto 4">
+        <div class="project-content">
+          <h2 class="project-title">Gerenciamento de Estoque</h2>
+          <p class="project-description">
+            Sistema para cadastrar, visualizar, editar e remover produtos, com relatórios de vendas e estoque.
+          </p>
+          <div class="tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Node.Js</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ricardohenrique1609/sistema-gerenciamento-estoque.git">GitHub</a>
    
           </div>
         </div>
