@@ -1,411 +1,442 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Projetos</title>
+  <title>Portfólio Ricardo Henrique</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem !important; }
+      h2 { font-size: 1.2rem !important; }
+      h3 { font-size: 1.1rem !important; }
+      p, .contact-icon span { font-size: 1rem !important; }
+      .project-image { height: 160px !important; }
+      .contact-icon { width: 100px !important; padding: 15px !important; }
     }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #444;
+    @media (max-width: 480px) {
+      h1 { font-size: 1.6rem !important; }
+      h2 { font-size: 1rem !important; }
+      h3 { font-size: 1rem !important; }
+      .badge, .tags span { font-size: 0.75rem !important; padding: 6px 12px !important; }
+      .contact-icon img { width: 40px !important; height: 40px !important; }
+    }
+  </style>
+</head>
+<body>
+
+<section id="inicio" style="position: relative; padding: 100px 20px; z-index: 1;">
+  <div style="
+    background: url('Fundo2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.35;
+    z-index: 0;
+  "></div>
+
+  <div style="position: relative; z-index: 1; text-align: center;">
+    <div style="width: 190px; height: 190px; border-radius: 50%; overflow: hidden; border: 5px solid #a7cfff; box-shadow: 0 12px 30px rgba(0,0,0,0.25); margin: 0 auto 25px; animation: float-img 6s ease-in-out infinite;">
+      <img src="Image (4).jpg" alt="Ricardo Henrique - Foto de Perfil" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+
+    <h1 style="font-size: 2.8rem; font-weight: 700; color: #1e293b; margin-bottom: 10px;">Ricardo Henrique</h1>
+    <h2 style="font-size: 1.4rem; font-weight: 500; color: #2563eb; margin-bottom: 20px;">Data & Automation Developer | Power BI | Python | Machine Learning & IA Generativa</h2>
+
+    <div style="margin: 20px auto 30px;">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&color=3A7BD5&center=true&vCenter=true&width=700&lines=Transformando+dados+em+decisão+inteligente;Automatizando+processos+com+Python+e+Power+BI;Construindo+um+império+com+tecnologia+e+foco" alt="Typing SVG">
+    </div>
+
+    <p style="font-size: 1.1rem; color: #475569; max-width: 720px; margin: 0 auto; line-height: 1.7;">
+      Estagiário de automação na <strong>Saint-Gobain</strong>, onde desenvolvo automações com <strong>Automation Anywhere</strong> e <strong>Python</strong>, além de criar dashboards estratégicos com <strong>Power BI</strong>. Estudante de <strong>Data Science</strong> na <strong>FIAP</strong>, com foco em <strong>ciência de dados</strong>, <strong>machine learning</strong>, <strong>inteligência artificial</strong> e <strong>SQL</strong>. Meu propósito é potencializar negócios e decisões por meio da tecnologia, inteligência analítica e automação de alto impacto.
+    </p>
+  </div>
+
+  <style>
+    @keyframes float-img {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</section>
+
+<!--SOBRE MIM-->
+
+<section id="sobre-mim" style="position: relative; padding: 100px 20px; z-index: 1;">
+  <div style="
+    background: url('Fundo2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.35;
+    z-index: 0;
+  "></div>
+ 
+  <div style="position: absolute; bottom: -80px; right: -60px; width: 240px; height: 240px; background: linear-gradient(135deg, #93c5fd, #2563eb); border-radius: 50%; opacity: 0.1; animation: float2 10s ease-in-out infinite alternate-reverse;"></div>
+
+  <div style="position: relative; z-index: 2; max-width: 1000px; margin: 0 auto; background: white; border-radius: 18px; padding: 60px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); transform: perspective(1000px); animation: fade-in 1.2s ease-out forwards;">
+    <h2 style="text-align: center; font-size: 2.2rem; color: #1e40af; margin-bottom: 30px; text-shadow: 1px 1px 0 #e0e7ff;">Quem Sou Eu?</h2>
+
+    <p style="font-size: 1.15rem; color: #475569; line-height: 1.9; margin-bottom: 25px;">
+      Sou movido por dados, inteligência e propósito. Atualmente atuo como estagiário de automação na <strong>Saint-Gobain</strong>, onde desenvolvo soluções com <strong>Python</strong>, <strong>Automation Anywhere</strong> e <strong>Power BI</strong>. Automatizo processos críticos e desenvolvo dashboards que ajudam a equipe a ser mais eficiente e tomar decisões baseadas em dados reais.
+    </p>
+
+    <p style="font-size: 1.15rem; color: #475569; line-height: 1.9; margin-bottom: 25px;">
+      Estudo <strong>Data Science na FIAP</strong>, onde mergulho em áreas como <strong>Machine Learning</strong>, <strong>IA Generativa</strong>, <strong>Big Data</strong> e <strong>SQL</strong>. Me especializo em transformar dados complexos em soluções visuais, automatizadas e escaláveis. Meu foco é criar impacto real por meio da inteligência analítica.
+    </p>
+
+    <p style="font-size: 1.15rem; color: #475569; line-height: 1.9;">
+      Minha missão é clara: resolver problemas de forma inteligente, gerar eficiência com automação e entregar valor através dos dados. Estou construindo um império com tecnologia, dedicação e visão de longo prazo.
+    </p>
+
+    <div style="margin-top: 45px; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+      <span style="background: #2563eb; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(37,99,235,0.3); transform: scale(1); transition: 0.3s ease;">Python</span>
+      <span style="background: #0ea5e9; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(14,165,233,0.3);">Power BI</span>
+      <span style="background: #9333ea; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(147,51,234,0.3);">Automation Anywhere</span>
+      <span style="background: #10b981; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(16,185,129,0.3);">Machine Learning</span>
+      <span style="background: #f59e0b; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(245,158,11,0.3);">IA Generativa</span>
+      <span style="background: #6b7280; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(107,114,128,0.3);">SQL</span>
+      <span style="background: #3b82f6; color: white; padding: 10px 22px; border-radius: 30px; font-size: 0.95rem; box-shadow: 0 5px 15px rgba(59,130,246,0.3);">Data Science</span>
+    </div>
+  </div>
+
+  <style>
+    @keyframes float1 {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(30px) rotate(360deg); }
     }
 
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
+    @keyframes float2 {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(-30px) rotate(-360deg); }
     }
 
+    @keyframes fade-in {
+      0% { opacity: 0; transform: translateY(30px) scale(0.98); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+  </style>
+</section>
+  </div>
+</section>
+
+<!--INSTITUIÇOES-->
+
+<section id="sobre-mim" style="position: relative; padding: 100px 20px; z-index: 1;">
+  <div style="
+    background: url('Fundo2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.35;
+    z-index: 0;
+  "></div>
+  <div style="position: absolute; top: -80px; left: -80px; width: 250px; height: 250px; background: radial-gradient(circle, #3b82f6, transparent); opacity: 0.07; border-radius: 50%; animation: float1 14s ease-in-out infinite alternate;"></div>
+  <div style="position: absolute; bottom: -60px; right: -60px; width: 200px; height: 200px; background: radial-gradient(circle, #2563eb, transparent); opacity: 0.08; border-radius: 50%; animation: float2 10s ease-in-out infinite alternate-reverse;"></div>
+
+  <div style="max-width: 1200px; margin: 0 auto; position: relative; z-index: 2;">
+    <h2 style="text-align: center; font-size: 2.6rem; color: #1e3a8a; margin-bottom: 70px; font-weight: 700; text-shadow: 1px 1px 0 #e0e7ff;">Minha Formação Acadêmica</h2>
+
+    <div style="display: flex; flex-direction: column; gap: 60px;">
+
+      <!-- FIAP -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; background: #ffffff; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.1); padding: 50px; gap: 40px; transform: perspective(1000px) rotateX(0deg); animation: fade-in 1.3s ease-out forwards;">
+        <img src="fiap.jpg" alt="FIAP Logo" style="width: 130px; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08);">
+        <div style="flex: 1;">
+          <h3 style="font-size: 1.8rem; color: #2563eb; margin-bottom: 15px; font-weight: 600;">FIAP — Graduação em Data Science</h3>
+          <p style="color: #475569; font-size: 1.1rem; line-height: 1.8;">
+            Em andamento. Formação completa em <strong>Data Science</strong>, com ênfase prática em <strong>Machine Learning</strong>, <strong>IA Generativa</strong>, <strong>Power BI</strong>, <strong>SQL</strong>, <strong>Big Data</strong> e <strong>Engenharia de Dados</strong>. Aprendizado voltado a gerar impacto real com inteligência analítica, modelagem avançada e visualização estratégica.
+          </p>
+          <div style="margin-top: 25px; display: flex; flex-wrap: wrap; gap: 12px;">
+            <span class="badge">Machine Learning</span>
+            <span class="badge">IA Generativa</span>
+            <span class="badge">Big Data</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Power BI</span>
+            <span class="badge">Engenharia de Dados</span>
+            <span class="badge">Arquitetura de Dados</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SENAI -->
+      <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; background: #ffffff; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.1); padding: 50px; gap: 40px; transform: perspective(1000px) rotateX(0deg); animation: fade-in 1.6s ease-out forwards;">
+        <img src="senai.jpg" alt="SENAI Logo" style="width: 130px; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08);">
+        <div style="flex: 1;">
+          <h3 style="font-size: 1.8rem; color: #dc2626; margin-bottom: 15px; font-weight: 600;">SENAI — Técnico em Análise e Desenvolvimento de Sistemas</h3>
+          <p style="color: #475569; font-size: 1.1rem; line-height: 1.8;">
+            Curso técnico concluído com base sólida em <strong>programação</strong>, <strong>MySQL</strong> e <strong>desenvolvimento web</strong>. Aprendi a criar soluções completas com <strong>HTML, CSS, JavaScript</strong> e <strong>Node.js</strong>, além de ter domínio de <strong>Kotlin</strong>, <strong>Java</strong> e lógica aplicada à engenharia de software.
+          </p>
+          <div style="margin-top: 25px; display: flex; flex-wrap: wrap; gap: 12px;">
+            <span class="badge">HTML/CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Node.js</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Engenharia de Software</span>
+            <span class="badge">Kotlin</span>
+            <span class="badge">Java</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .badge {
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      color: white;
+      padding: 8px 20px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 5px 15px rgba(59,130,246,0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .badge:hover {
+      transform: scale(1.08);
+      box-shadow: 0 10px 20px rgba(59,130,246,0.4);
+    }
+    @keyframes float1 {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(20px); }
+    }
+    @keyframes float2 {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+    }
+    @keyframes fade-in {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</section>
+
+<!--PROJETOS AUTORAIS-->
+
+<section id="sobre-mim" style="position: relative; padding: 100px 20px; z-index: 1;">
+  <div style="
+    background: url('Fundo2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.35;
+    z-index: 0;
+  "></div>
+  <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2.5rem; color: #1e40af; margin-bottom: 60px; text-shadow: 1px 1px 0 #e0e7ff;">Projetos Autorais</h2>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+
+      <!-- Card Projeto 1 -->
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('classric.jpg');"></div>
+        <div class="project-content">
+          <h3>Classificador de Sentimentos</h3>
+          <p>Modelo de Machine Learning para análise de sentimentos de postagens no Mastodon sobre Python.</p>
+          <div class="tags">
+            <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Machine Learning</span>
+          </div>
+          <a href="https://github.com/ricardohenrique1609/Analise-sentimentos" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <!-- Card Projeto 2 -->
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('irisss.jpg');"></div>
+        <div class="project-content">
+          <h3>Classificador de Flores Iris</h3>
+          <p>Projeto de classificação de espécies Iris baseado em características visuais, com visualizações e métricas.</p>
+          <div class="tags">
+            <span>Python</span><span>Scikit-learn</span><span>Plotly</span><span>Machine Learning</span>
+          </div>
+          <a href="https://github.com/ricardohenrique1609/classificacao-flores-iris" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <!-- Card Projeto 3 -->
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('uber.jpg');"></div>
+        <div class="project-content">
+          <h3>UberFiciente</h3>
+          <p>Plataforma de transporte acessível com funcionalidades de login, corridas, chatbot e criptografia.</p>
+          <div class="tags">
+            <span>JavaScript</span><span>MySQL</span><span>Node.js</span><span>Bcrypt</span><span>Python</span>
+          </div>
+          <a href="https://github.com/ricardohenrique1609/Uberficiente" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+
+  <style>
     .project-card {
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: #ffffff;
+      border-radius: 20px;
       overflow: hidden;
-      transition: transform 0.3s ease;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      display: flex;
+      flex-direction: column;
     }
 
     .project-card:hover {
-      transform: translateY(-5px);
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
     }
 
-    .project-card img {
+    .project-image {
       width: 100%;
       height: 180px;
-      object-fit: cover;
+      background-size: cover;
+      background-position: center;
     }
 
     .project-content {
-      padding: 20px;
+      padding: 25px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
-    .project-title {
-      font-size: 1.5em;
+    .project-content h3 {
+      font-size: 1.4rem;
+      color: #1e3a8a;
       margin-bottom: 10px;
-      color: #222;
     }
 
-    .project-description {
-      font-size: 0.9em;
-      color: #666;
+    .project-content p {
+      font-size: 1rem;
+      color: #475569;
       margin-bottom: 15px;
+      line-height: 1.5;
     }
 
     .tags {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      margin-bottom: 15px;
     }
 
-    .tag {
-      background-color: #007bff;
-      color: #fff;
-      font-size: 0.75em;
-      padding: 5px 10px;
-      border-radius: 20px;
+    .tags span {
+      background: #3b82f6;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(59,130,246,0.3);
+      transition: transform 0.2s ease;
     }
 
-    .project-links {
-      margin-top: 15px;
+    .tags span:hover {
+      transform: scale(1.1);
     }
 
-    .project-links a {
-      color: #007bff;
+    .project-content a {
       text-decoration: none;
-      font-weight: bold;
-      margin-right: 10px;
+      color: #2563eb;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
     }
 
-    .project-links a:hover {
-      text-decoration: underline;
+    .project-content a:hover {
+      color: #1d4ed8;
     }
-    .containerfac {
-      max-width: 1200px;
-      margin: 25px auto;
-      padding: 25px;
-     background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-       color: #000000;
-       text-align: center;
-    }
-    .containerfac h2 {
-  margin-top: 10px; /* Adiciona espaçamento acima do título */
-}
-
-.containerfac p {
-  text-align: left; /* Alinha o texto à esquerda */
-  margin-bottom: 15px; /* Adiciona espaçamento abaixo do parágrafo */
-}
-
-    .foto-instituicao {
-    display: block;
-    margin: 10px auto; /* Centraliza horizontalmente */
-    max-width: 150px; /* Limita o tamanho máximo da imagem */
-    border-radius: 50%; /* Faz a imagem ficar circular */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreamento */
-  }
-  .foto-emoji{
-  width: 50px; /* Tamanho das imagens */
-  height: 50; /* Mantém a proporção da imagem */
-}
-.botao {
-  display: inline-block;
-  padding: 10px 20px; /* Ajusta o padding */
-  background: #fff;
-  color: #7cb6ed;
-  font-size: 1rem; /* Ajusta o tamanho da fonte */
-  border-radius: 5px; /* Adiciona um border-radius */
-  text-decoration: none; /* Remove a sublinha do link */
-}
-  .containersb {
-    max-width: 1200px;
-    margin: 25px auto;
-    padding: 25px;
-   background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-     border: 2px solid #ffffff;  
-     color: #000000;
-  }
-  .tech-category h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
-.foto-perfil {
-  display: block;
-  margin: 30px auto; /* Reduz a margem superior */
-  max-width: 250px; /* Ajusta o tamanho da foto */
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.container2 h1 {
-  text-align: center; /* Centraliza o texto do h1 */
-  font-size: 1.5rem; 
-  margin-bottom: 15px; 
-}
-    
-    #contato img {
-  height: 40%;
-  width: 30px;
-}
-ul li {
-    display: inline-block; /* Muda para inline-block */
-    margin-right: 10px;  /* Adiciona espaçamento entre os ícones */
-}
-/* Cartões de Projeto */
-.projects {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 50px; /* Ajuste a largura conforme necessário */
-}
-
-
-/* Seção de Contato */
-.containercontato {
-  text-align: center; /* Centraliza o conteúdo */
-}
-#contato img {
-  height: 50px; /* Ajuste a altura conforme necessário */
-  width: 50px; /* Ajuste a largura conforme necessário */
-}
-@media (max-width: 600px) { 
-  .projects {
-    grid-template-columns: 1fr; /* Uma coluna por linha */
-  }
-}
-
   </style>
-</head>
-<body>
-    <section id="inicio">
-        <div style="display: flex; align-items: center; flex-direction: column; text-align: center; background-color: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-          <div style="width: 180px; height: 180px; overflow: hidden; border-radius: 50%; border: 4px solid #82b3e7; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
-            <img src="foto.jpeg" alt="Ricardo Henrique - Foto de Perfil" style="width: 100%; height: auto;">
-          </div>
-          <h1 style="font-size: 1.8rem; color: #222; margin-bottom: 10px;">Ricardo Henrique</h1>
-          <h2 style="font-size: 1.2rem; color: #555;">Data & Automation Developer | Power BI | Python | Machine Learning & IA Generativa</h2>
-          <p style="font-size: 1.1rem; color: #475569; max-width: 720px; margin: 0 auto; line-height: 1.7;">
-      Estagiário de automação na <strong>Saint-Gobain</strong>, onde desenvolvo automações com <strong>Automation Anywhere</strong> e <strong>Python</strong>, além de criar dashboards estratégicos com <strong>Power BI</strong>. Estudante de <strong>Data Science</strong> na <strong>FIAP</strong>, com foco em <strong>ciência de dados</strong>, <strong>machine learning</strong>, <strong>inteligência artificial</strong> e <strong>SQL</strong>. Meu propósito é potencializar negócios e decisões por meio da tecnologia, inteligência analítica e automação de alto impacto.
-    </p>
-        </div>
-      </section>
-      
-      
+</section>
 
-    <section id="sobre-mim">
-        <div class="containersb">
-            <h2>Quem sou eu?</h2>
-           <p>Sou movido por dados, inteligência e propósito. Atualmente atuo como estagiário de automação na <strong>Saint-Gobain</strong>, onde desenvolvo soluções com <strong>Python</strong>, <strong>Automation Anywhere</strong> e <strong>Power BI</strong>. Automatizo processos críticos e desenvolvo dashboards que ajudam a equipe a ser mais eficiente e tomar decisões baseadas em dados reais.
-    </p>
-<p>
-      Estudo <strong>Data Science na FIAP</strong>, onde mergulho em áreas como <strong>Machine Learning</strong>, <strong>IA Generativa</strong>, <strong>Big Data</strong> e <strong>SQL</strong>. Me especializo em transformar dados complexos em soluções visuais, automatizadas e escaláveis. Meu foco é criar impacto real por meio da inteligência analítica.
+<!--CONTATOS-->
+
+<section id="sobre-mim" style="position: relative; padding: 100px 20px; z-index: 1;">
+  <div style="
+  background: url('Fundo2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+"></div>
+
+  <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2.4rem; color: #1e40af; margin-bottom: 20px; text-shadow: 1px 1px 0 #dbeafe;">Contato</h2>
+    <p style="font-size: 1.1rem; color: #475569; max-width: 600px; margin: 0 auto 40px; line-height: 1.7;">
+      Vamos conversar? Estou aberto a oportunidades, colaborações ou simplesmente trocar uma ideia sobre dados, automação e tecnologia.
     </p>
 
-              <p>
-      Minha missão é clara: resolver problemas de forma inteligente, gerar eficiência com automação e entregar valor através dos dados.
-            <p>Habilidades principais:</p>
-            <div class="tech-icons">
-                <div class="tech-category">
-                    <h3>Programação:</h3>
-                    <div class="icons">
-                        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" class="tech-icon">
-                        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" class="tech-icon">
-                        <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" class="tech-icon">
-                        <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" class="tech-icon">
-                    </div>
-                </div>
-                <br>
-    
-                <div class="tech-category">
-                    <h3>Web:</h3>
-                    <div class="icons">
-                        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" class="tech-icon">
-                        <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" class="tech-icon">
-                        <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" class="tech-icon">
-                    </div>
-                </div>
-                <br>
-    
-                <div class="tech-category">
-                    <h3>Dados:</h3>
-                    <div class="icons">
-                        <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" class="tech-icon">
-                        <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" class="tech-icon">
-                        <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib" class="tech-icon">
-                        <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" class="tech-icon">
-                        <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" class="tech-icon">
-                        <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" class="tech-icon">
-                        <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" class="tech-icon">
-                        <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="R" class="tech-icon">
-                    </div>
-                </div>
-            </div>
-
-            <p>Soft Skills:</p>
-       <uk>
-       
-            <p>✔️Comunicação efetiva</p>
-            <p>✔️Trabalho em equipe</p>
-            <p>✔️Adaptabilidade</p>
-            <p>✔️Proatividade</p>
-            <p>✔️Resolução de problemas</p>
-          </ul>
-    </section>
-
-
-</center><H1>Graduações</H1><center>
-    <section id="faculdade">
-        <div class="containerfac">
-          <h1>Cursando</h1>
-          <img src="fiap.jpg" alt="Foto FIAP" class="foto-instituicao">
-          <h2>FIAP - Data Science</h2>
-          <p>Cursando graduação Superior tecnológica em Data Science, com foco em Big Data, BI e Data Engineering. Instituição renomada na área de tecnologia e inovação.</p>
-          <center><img src="https://images.emojiterra.com/google/android-nougat/512px/2b07.png" class="foto-emoji"></center>
-          <center> <a href="https://www.fiap.com.br/graduacao/tecnologo/data-science/" class="botao">Sobre o Curso</a></center>
-        </div>
-      </section>
-
-    <section id="senai">
-        <div class="containerfac">
-        <center><h1>Concluido✔️</h1></center> 
-          <img src="senai.jpg" alt="Foto SENAI" class="foto-instituicao">
-          <h2>SENAI - ADS</h2>
-          <center><p>Curso técnico em Análise e Desenvolvimento de Sistemas, focado em programação, banco de dados e desenvolvimento web.</p></center>
-        <center><p>No curso de ADS, aprendi:</p></center>
-      <center> <ul>
-            <p>✔️Lógica de programação e algoritmos</p>
-            <p>✔️Desenvolvimento web com HTML, CSS e JavaScript</p>
-            <p>✔️Banco de dados e SQL</p>
-            <p>✔️Fundamentos de engenharia de software</p>
-          </ul></center>
-        </div> 
-      </section>
-  <div class="container">
-    <h1>Projetos Autorais</h1>
-    <div class="projects">
-      <!-- Projeto 1 -->
-      <div class="project-card">
-        <img src="classric.jpg" alt="Projeto 1">
-        <div class="project-content">
-          <h2 class="project-title">Classificador de Sentimentos</h2>
-          <p class="project-description">
-             Sistema de Análise de sentimentos das postagens da plataforma Mastodon relacionados à linguagem Python, Utilizando Machine learning.
-          </p>
-          <div class="tags">
-            <span class="tag">Python</span>
-            <span class="tag">Pandas</span>
-            <span class="tag">Matplotlib</span>
-            <span class="tag">Machine Learning</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/ricardohenrique1609/Analise-sentimentos.git">GitHub</a>
-            
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="irisss.jpg" alt="Projeto 2">
-        <div class="project-content">
-          <h2 class="project-title">Classificador de Flores Iris</h2>
-          <p class="project-description">
-            Modelo de Machine Learning para prever a espécie de flores Iris com base em características visuais.
-          </p>
-          <div class="tags">
-            <span class="tag">Python</span>
-            <span class="tag">Scikit-Learn</span>
-            <span class="tag">Plotly</span>
-            <span class="tag">Machine Learning</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/ricardohenrique1609/classificacao-flores-iris.git">GitHub</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Projeto 2 -->
-      <div class="project-card">
-        <img src="uber.jpg" alt="Projeto 3">
-        <div class="project-content">
-          <h2 class="project-title">UberFiciente</h2>
-          <p class="project-description">
-            Plataforma de transporte acessível com funcionalidades de Login, Cadastro, Corridas, reservas, um chatbot integrado e criptografia de senhas.
-          </p>
-          <div class="tags">
-            <span class="tag">API do Google Maps</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">Node.Js</span>
-            <span class="tag">Bcrypt</span>
-            <span class="tag">Python</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/ricardohenrique1609/Uberficiente">GitHub</a>
-          </div>
-        </div>
-      </div>
-
-  
-   
-          </div>
-        </div>
-      </div>
-      </div>
-      
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px;">
+      <a href="mailto:ricardo.henrique6@icloud.com" target="_blank" class="contact-icon">
+        <img src="o-email.png" alt="Email">
+        <span>Email</span>
+      </a>
+      <a href="https://linkedin.com/in/ricardo-henrique-28939b275" target="_blank" class="contact-icon">
+        <img src="linkedin (1).png" alt="LinkedIn">
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/ricardohenrique1609" target="_blank" class="contact-icon">
+        <img src="github (1).png" alt="GitHub">
+        <span>GitHub</span>
+      </a>
+      <a href="https://wa.me/5511972280314" target="_blank" class="contact-icon">
+        <img src="whats.png" alt="WhatsApp">
+        <span>WhatsApp</span>
+      </a>
     </div>
   </div>
-</div>
 
+  <style>
+    .contact-icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      border-radius: 16px;
+      padding: 20px 25px;
+      width: 130px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: #1e3a8a;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-icon:hover {
+      transform: translateY(-6px) scale(1.05);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .contact-icon img {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .contact-icon span {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  </style>
 </section>
 
 
-<section id="contato">
-    <div class="containercontato">
-      <h2>Contato</h2>
-      <p>Entre em contato comigo:</p>
-      <ul>
-        <li>
-          <a href="mailto:ricardo.henrique6@icloud.com" target="_blank">
-            <img src="o-email.png" alt="Ícone do Email" width="32" height="32"> 
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/ricardo-henrique-28939b275/" target="_blank">
-            <img src="linkedin (1).png" alt="Ícone do LinkedIn" width="32" height="32"> 
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/ricardohenrique1609" target="_blank">
-            <img src="github (1).png" alt="Ícone do GitHub" width="32" height="32"> 
-          </a>
-        </li>
-        <li>
-          <a href="https://wa.me/5511972280314" target="_blank">
-              <img src="whats.png" alt="WhatsApp">
-          </a>
-      </li>
-      </ul>
-    </div>
-  </section>
+
+
 </body>
+</html>
+
+
